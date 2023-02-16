@@ -1,0 +1,85 @@
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;500;700;800;900&display=swap" rel="stylesheet">
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    font-size: 100%;
+    background: #1B1A17;
+}
+
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+}
+
+.cabecalho-imagem {
+    height: 60px;
+}
+
+.cabecalho-menu {
+    display: flex;
+    gap: 40px;
+}
+
+.cabecalho-menu-item {
+    font-family: 'Inconsolata', monospace;
+    color: #F0E3CA;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.conteudo {
+    margin-bottom: 40px;
+    border-top: 0.4px solid #12110f;
+}
+
+.eu {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 80px;
+}
+
+.eu-conteudo {
+    display: flex;
+    flex-direction: column;
+    gap: -6px;
+}
+
+.eu-h1 {
+    font-family: 'Inconsolata', monospace;
+    font-weight: 900;
+    font-size: 64px;
+    color: #FF8303;
+}
+
+.eu-h2 {
+    font-family: 'Inconsolata', monospace;
+    font-weight: 700;
+    font-size: 40px;
+    color: #F0E3CA;
+    margin-top: -40px;
+}
+
+.eu-h3 {
+    font-family: 'Inconsolata', monospace;
+    font-weight: 400;
+    font-size: 20px;
+    color: #F0E3CA;
+    margin-top: -10px;
+}
+
+.eu-img {
+    height: 575px;
+}
