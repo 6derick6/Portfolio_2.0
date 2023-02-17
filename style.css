@@ -36,6 +36,13 @@ body {
     color: #F0E3CA;
     font-weight: 500;
     font-size: 20px;
+    cursor: pointer; 
+}
+
+.cabecalho-menu-item:hover { 
+    color: #FF8303;
+    transition: 0.3s;
+    opacity: 0.7;
 }
 
 .conteudo {
