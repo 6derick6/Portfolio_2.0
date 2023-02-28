@@ -136,7 +136,7 @@ body {
 .my-skills-imgs {
     padding: 30px;
     background-color: #21201D;
-    width: 110px;
+    width: 155px;
     height: 170px;
     display: flex;
     align-items: center;
@@ -235,6 +235,7 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    margin-top: 20px
 }
 
 .rodape-contacts-h2 {
@@ -257,6 +258,7 @@ body {
     flex-direction: row;
     align-items: center;
     justify-content: center;
+    margin-top: 20px;
 }
 
 .rodape-contacts-conteudo-imagem {
