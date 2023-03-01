@@ -23,11 +23,3 @@ const imagem = document.getElementById('imagem');
 const modal = document.getElementById('modal');
 const codigo = document.getElementById('codigo');
 const visitar = document.getElementById('visitar');
-
-codigo.addEventListener('click', () => {
-  // código a ser executado ao clicar no botão 1
-});
-
-visitar.addEventListener('click', () => {
-  // código a ser executado ao clicar no botão 2
-});
